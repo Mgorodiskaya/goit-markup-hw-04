@@ -149,7 +149,9 @@ margin-right: 52px;
   height: 12px;
   margin-right: 10px;
   background-image: url(../images/icons/envelope.svg);
+  vertical-align: middle;
 }
+
 
 .header-tel::before{
   display: inline-block;
@@ -160,13 +162,15 @@ margin-right: 52px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../images/icons/Vector.svg);
+  vertical-align: middle;
 }
 
 .hero {
   max-width: 1600px;
   height: 600px;
   background-color: #C4C4C4;
-  background-image: url(../images/hero/Img.svg);
+  background-image: linear-gradient(to right, 
+rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/hero/Img.svg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -252,7 +256,6 @@ margin-right: 30px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-dark-color);
-
   margin-bottom: 10px;
 }
 
@@ -271,6 +274,10 @@ margin-right: 30px;
   color: var(--title-dark-color);
 
   margin-bottom: 50px;
+}
+
+.works-text{
+border: 1px solid var(-);
 }
 
 .work-list{
@@ -293,7 +300,7 @@ justify-content: space-between;
 
 .team-item{
   background-color: var(--title-white-color);
-
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding-bottom: 30px;
 }
 
@@ -381,6 +388,7 @@ justify-content: space-between;
 .btn-filter:focus {
   background-color: var(--accent-color);
   color: var(--title-white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .works-list-title {
