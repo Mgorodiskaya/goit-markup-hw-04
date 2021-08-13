@@ -498,6 +498,10 @@ display: flex;
   margin-bottom: 4px;
 }
 
+.poster{
+  letter-spacing: 0.04em;
+}
+
 .works-list-text {
   width: 322px;
   font-size: 16px;
