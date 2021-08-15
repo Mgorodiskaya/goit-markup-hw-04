@@ -437,21 +437,25 @@ display: flex;
   margin-right: 10px;
   }
 
-.footer-social-icon{
+.footer-social-icon {
     fill: var(--title-white-color);
 }
 
 .footer-social-link:hover,
-.footer-social-link:focus{
+.footer-social-link:focus {
   background-color: var(--accent-color);
 }
 
 .footer-social-link:hover .footer-social-icon,
-.footer-social-link:focus .footer-social-icon{
+.footer-social-link:focus .footer-social-icon {
   fill: white;
 }
 
-.btn-filter-list{
+.header {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+
+.btn-filter-list {
   display: flex;
   justify-content: center;
 
